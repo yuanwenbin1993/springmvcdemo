@@ -14,6 +14,11 @@ public class UserController {
         return  "success";
     }
 
-//    public staitc
-//    public staitc
+
+    @RequestMapping("testGit")
+    @ResponseBody
+    public String testGit(Model modell){
+        return  "success";
+    }
+
 }
